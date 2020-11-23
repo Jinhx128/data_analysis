@@ -6,6 +6,7 @@ from matplotlib_demo import plot
 from matplotlib_demo import scatter
 from matplotlib_demo import bar
 from matplotlib_demo import hist
+from script import brush_data
 
 
 def print_hi(name):
@@ -19,6 +20,6 @@ if __name__ == '__main__':
     # plot.show()
     # scatter.show()
     # bar.show()
-    hist.show()
+    # hist.show()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
