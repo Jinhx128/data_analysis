@@ -1,6 +1,6 @@
 ## 项目简介
 ```
-记录对数据分析三剑客：Matplotlib，Numpy，Pandas的学习，使用。
+基于Matplotlib+Numpy+Pandas搭建的数据分析项目。
 ```
 
 ## 参考教程
