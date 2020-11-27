@@ -33,7 +33,7 @@ def show():
 
     plt.xticks(list(range(int(min(x)), int(max(x)) + bin_width, bin_width)), rotation=45)
 
-    # plt.savefig('matplotlib_demo/hist/bar.png')
+    plt.savefig('matplotlib_demo/hist/bar.png')
 
     plt.show()
 

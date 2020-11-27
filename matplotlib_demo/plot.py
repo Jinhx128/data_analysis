@@ -36,7 +36,7 @@ def show():
 
     plt.xticks(x[::5], _x_ticks[::5], rotation=45)
 
-    # plt.savefig('matplotlib_demo/file/plot.png')
+    plt.savefig('matplotlib_demo/file/plot.png')
 
     plt.show()
 
