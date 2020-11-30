@@ -48,7 +48,7 @@ session = Session()
 
 def brush_mysql():
     # 连接database
-    conn = pymysql.connect(host='xxx', user='root', password='root', database='member', charset='utf8')
+    conn = pymysql.connect(host='xxx', user='xxx', password='xxx', database='xxx', charset='utf8')
     # 得到一个可以执行SQL语句并且将结果作为字典返回的游标
     cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
     f = 'mb_dep_doctor_info'
