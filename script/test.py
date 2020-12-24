@@ -10,7 +10,7 @@ import pymysql
 pymysql.install_as_MySQLdb()
 
 # echo=True表示日志打印出来
-engine = create_engine("mysql://chaxun:123456@10.1.2.55:3306/member?charset=utf8", encoding='utf8', echo=False)
+engine = create_engine("mysql://user:passw@xxx:3306/database?charset=utf8", encoding='utf8', echo=False)
 
 Base = declarative_base()
 

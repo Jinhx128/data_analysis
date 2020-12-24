@@ -6,7 +6,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 
 def brush_mysql():
     # 连接database
-    conn = pymysql.connect(host='47.115.92.130', user='root', password='root', database='luoyu_blog', charset='utf8')
+    conn = pymysql.connect(host='xxx', user='xxx', password='xxx', database='xxx', charset='utf8')
     # 得到一个可以执行SQL语句并且将结果作为字典返回的游标
     cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
     tables = ['article', 'book', 'book_note']
