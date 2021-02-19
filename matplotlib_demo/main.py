@@ -6,7 +6,6 @@ from matplotlib_demo import plot
 from matplotlib_demo import scatter
 from matplotlib_demo import bar
 from matplotlib_demo import hist
-from script import brush_data
 
 
 def print_hi(name):
